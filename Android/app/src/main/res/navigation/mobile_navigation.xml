@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.koreanair.keds.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_buttons"
+        android:name="com.koreanair.keds.ui.buttons.ButtonsFragment"
+        android:label="fragment_buttons"
+        tools:layout="@layout/fragment_buttons" />
+
+    <fragment
+        android:id="@+id/nav_lists"
+        android:name="com.koreanair.keds.ui.lists.ListsFragment"
+        android:label="fragment_lists"
+        tools:layout="@layout/fragment_lists" />
+    <fragment
+        android:id="@+id/nav_typography"
+        android:name="com.koreanair.keds.ui.typography.TypographyFragment"
+        android:label="fragment_typography"
+        tools:layout="@layout/fragment_typography" />
+    <fragment
+        android:id="@+id/nav_dialogs"
+        android:name="com.koreanair.keds.ui.dialogs.DialogsFragment"
+        android:label="fragment_dialogs"
+        tools:layout="@layout/fragment_dialogs" />
+</navigation>

@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="135"
+        android:centerColor="@color/navi_hader_bgcolor_center"
+        android:endColor="@color/navi_hader_bgcolor_end"
+        android:startColor="@color/navi_hader_bgcolor_start"
+        android:type="linear" />
+</shape>

@@ -1,0 +1,283 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.buttons.ButtonsFragment">
+
+
+    <LinearLayout
+        android:id="@+id/buttons_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/buttons_large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Large"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sample_large_button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_8radius_294082"
+                android:lineHeight="24sp"
+                android:lineSpacingExtra="8sp"
+                android:text="예매"
+                android:textColor="@color/button_text_ffffff"
+                android:textSize="16sp" />
+
+            <androidx.legacy.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sample_large_button_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_8radius_1e5485"
+                android:lineHeight="24sp"
+                android:lineSpacingExtra="8sp"
+                android:text="나의 여행"
+                android:textColor="@color/button_text_ffffff"
+                android:textSize="16sp" />
+
+            <androidx.legacy.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sample_large_button_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_8radius_6e562a"
+                android:lineHeight="24sp"
+                android:lineSpacingExtra="8sp"
+                android:text="항공편 현황"
+                android:textColor="@color/button_text_ffffff"
+                android:textSize="16sp" />
+
+            <androidx.legacy.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sample_large_button_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_8radius_00256c"
+                android:lineHeight="24sp"
+                android:lineSpacingExtra="8sp"
+                android:text="etc..."
+                android:textColor="@color/button_text_ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/buttons_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Medium"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/buttons_medium_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="15dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_medium_button_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_00256c"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_medium_button_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_ffffff"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_00256c"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons_medium_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:background="#69717F">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_medium_button_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_black70"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_medium_button_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_white70"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttons_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Small"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/buttons_small_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_767676"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_555555"
+                    android:textSize="14sp" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_ffffff"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_00256c"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons_small_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:background="#69717F">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_black70"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_4radius_white70"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
