@@ -22,7 +22,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="30dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="visible"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
@@ -36,7 +38,7 @@
                 android:id="@+id/sample_large_button_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_8radius_294082"
+                android:background="@drawable/button_large_1"
                 android:lineHeight="24sp"
                 android:lineSpacingExtra="8sp"
                 android:text="예매"
@@ -51,7 +53,7 @@
                 android:id="@+id/sample_large_button_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_8radius_1e5485"
+                android:background="@drawable/button_large_2"
                 android:lineHeight="24sp"
                 android:lineSpacingExtra="8sp"
                 android:text="나의 여행"
@@ -66,7 +68,7 @@
                 android:id="@+id/sample_large_button_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_8radius_6e562a"
+                android:background="@drawable/button_large_3"
                 android:lineHeight="24sp"
                 android:lineSpacingExtra="8sp"
                 android:text="항공편 현황"
@@ -81,7 +83,7 @@
                 android:id="@+id/sample_large_button_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_8radius_00256c"
+                android:background="@drawable/button_large_4"
                 android:lineHeight="24sp"
                 android:lineSpacingExtra="8sp"
                 android:text="etc..."
@@ -96,7 +98,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="30dp">
+            android:layout_marginBottom="30dp"
+            android:visibility="visible">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -119,7 +122,7 @@
                     android:id="@+id/sample_medium_button_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_00256c"
+                    android:background="@drawable/button_medium_1"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
@@ -134,7 +137,7 @@
                     android:id="@+id/sample_medium_button_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_ffffff"
+                    android:background="@drawable/button_medium_2"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
@@ -155,7 +158,7 @@
                     android:id="@+id/sample_medium_button_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_black70"
+                    android:background="@drawable/button_medium_3"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
@@ -170,7 +173,7 @@
                     android:id="@+id/sample_medium_button_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_white70"
+                    android:background="@drawable/button_medium_4"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
@@ -202,17 +205,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:padding="15dp">
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/sample_small_button_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_767676"
+                    android:layout_width="55dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_1"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
@@ -226,37 +229,36 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/sample_small_button_2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_ffffff"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_2"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
-                    android:textColor="@color/button_text_00256c"
-                    android:textSize="14sp" />
-            </LinearLayout>
+                    android:textColor="@color/button_text_555555"
+                    android:textSize="14sp"
+                    android:drawableEnd="@drawable/ic_right_555555"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    />
 
-            <LinearLayout
-                android:id="@+id/buttons_small_dark"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:padding="15dp"
-                android:background="#69717F">
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/sample_small_button_3"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_black70"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_3"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
                     android:textColor="@color/button_text_ffffff"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:drawableEnd="@drawable/ic_right_white"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    />
 
                 <androidx.legacy.widget.Space
                     android:layout_width="0dp"
@@ -265,13 +267,105 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/sample_small_button_4"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/button_4radius_white70"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_4"
                     android:lineHeight="22sp"
                     android:text="Button"
                     android:textAllCaps="false"
                     android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp"
+                    android:drawableEnd="@drawable/ic_right_white"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_5"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_ffffff"
+                    android:textSize="14sp"
+                    android:drawableEnd="@drawable/ic_right_white"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons_small_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:background="#69717F">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_6"
+                    android:layout_width="55dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_6"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_e7eaf0"
+                    android:includeFontPadding="false"
                     android:textSize="14sp" />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/buttons_small_light_7"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_e7eaf0"
+                    android:textSize="14sp"
+                    android:drawableEnd="@drawable/ic_right_white"
+                    android:includeFontPadding="false"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    />
+
+                <androidx.legacy.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sample_small_button_8"
+                    android:layout_width="57dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/buttons_small_light_8"
+                    android:lineHeight="22sp"
+                    android:text="Button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/button_text_e7eaf0"
+                    android:includeFontPadding="false"
+                    android:textSize="14sp"
+                    />
+
+
             </LinearLayout>
 
         </LinearLayout>

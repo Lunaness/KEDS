@@ -9,6 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
 
+    <color name="whiteff">#FFFFFFFF</color>
+
+
     <color name="app_bar_bgcolor">#000066</color>
 
     <color name="navi_hader_bgcolor_start">#0000e6</color>
@@ -27,10 +30,12 @@
     <color name="button_bg_white70">#64FFFFFF</color>
 
     <color name="button_border_767676">#767676</color>
-
+    <color name="button_border_ffffff">#FFFFFF</color>
+    <color name="button_border_ffffff_0.5">#7FFFFFFF</color>
 
     <color name="button_text_ffffff">#ffffff</color>
     <color name="button_text_00256c">#00256C</color>
     <color name="button_text_555555">#555555</color>
+    <color name="button_text_e7eaf0">#E7EAF0</color>
 
 </resources>
