@@ -38,4 +38,12 @@
     <color name="button_text_555555">#555555</color>
     <color name="button_text_e7eaf0">#E7EAF0</color>
 
+
+    <color name="dialog_text_000000">#000000</color>
+    <color name="dialog_text_00256c">#00256c</color>
+    <color name="dialog_text_555555">#555555</color>
+    <color name="dialog_button_00256c">#00256c</color>
+    <color name="dialog_button_294082">#294082</color>
+    <color name="dialog_bg_f8f9fc">#f8f9fc</color>
+
 </resources>

@@ -27,10 +27,17 @@ class DialogsFragment : Fragment() {
         _binding = FragmentDialogsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDialogs
-        viewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+
+        _binding?.btnBasicAlertDialog?.setOnClickListener {
+            val dialog = BasicAlertDialogFragment().getInstance()
+
+            fragmentManager?.let {
+                dialog.setTargetFragment(this@DialogsFragment, 100)
+                dialog.show(it, "")
+            }
         }
+
+
         return root
     }
 
