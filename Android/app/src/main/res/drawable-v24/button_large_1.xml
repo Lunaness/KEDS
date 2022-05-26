@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/button_bg_294082" />
-    <corners android:radius="8dp"/>
-</shape>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/button_ripple">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/button_bg_294082" />
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</ripple>

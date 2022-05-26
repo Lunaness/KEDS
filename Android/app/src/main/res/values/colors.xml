@@ -19,7 +19,7 @@
     <color name="navi_hader_bgcolor_end">#000066</color>
 
 
-
+    <color name="button_ripple">#20000000</color>
 
     <color name="button_bg_294082">#294082</color>
     <color name="button_bg_1e5485">#1E5485</color>
